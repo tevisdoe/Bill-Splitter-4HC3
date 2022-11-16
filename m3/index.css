@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css?family=Inter:700,500,600");
+
+body {
+  margin: 0;
+}
+
+.main-page {
+  align-items: center;
+  background-color: var(--white);
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: space-between;
+  min-height: 640px;
+  min-width: 365px;
+  width: 100%;
+}
+
+.frame-1 {
+  align-items: center;
+  align-self: stretch;
+  justify-content: space-between;
+  background-color: var(--lochmara);
+  border: 1px none;
+  display: flex;
+  flex-direction: row;
+  gap: 190px;
+  height: 52px;
+  padding: 17px 21px;
+}
+
+.frame-1-item {
+  letter-spacing: 1.25px;
+  line-height: 16px;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.valign-text-middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.new-bill-button {
+  background-color: var(--white);
+  border: 1px solid;
+  border-color: var(--black-22);
+  height: 70px;
+  min-width: 295px;
+  position: relative;
+}
+
+.vector-button {
+  align-items: center;
+  background-color: var(--lochmara);
+  display: flex;
+  height: 70px;
+  left: 0;
+  min-width: 45px;
+  padding: 0 15px;
+  position: absolute;
+  top: 0;
+}
+
+.receipt-add {
+  height: 44px;
+  width: 44px;
+}
+
+.text {
+  left: 102px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 22px;
+}
