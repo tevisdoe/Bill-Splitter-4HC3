@@ -1,0 +1,15 @@
+.home-bar {
+  align-items: center;
+  align-self: stretch;
+  background-color: var(--lochmara);
+  border: 1px none;
+  display: flex;
+  height: 52px;
+  justify-content: space-between;
+  padding: 2px 8px;
+}
+
+.home-bar-item {
+  height: 47px;
+  min-width: 47px;
+}
