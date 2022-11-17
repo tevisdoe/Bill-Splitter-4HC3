@@ -97,8 +97,14 @@ div#highlight {
 .rectangle {
     background-color: var(--alto);
     border: 1px none;
+    border-radius: 5px;
     height: 25px;
     min-width: 150px;
+}
+
+.input {
+    margin: 3px;
+    margin-left: 5px;
 }
 
 .text {
@@ -113,6 +119,7 @@ div#highlight {
     background-color: var(--white);
     border: 1px solid;
     border-color: #0000004c;
+    border-radius: 10px;
     display: flex;
     width: 257px;
 }
