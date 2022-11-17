@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css?family=Inter:700|Roboto:500");
+
+body {
+  margin: 0;
+}
+
+.create-a-bill-2 {
+  align-items: center;
+  background-color: var(--white);
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  height: 100vh;
+  min-height: 640px;
+  min-width: 360px;
+  width: 100%;
+}
+
+.frame-16 {
+  align-items: center;
+  border: 1px none;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 20px;
+  padding: 0px 15px;
+  width: fit-content;
+}
+
+.frame-17 {
+  align-items: center;
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: fit-content;
+}
+
+.styleaccent-statedef {
+  align-items: center;
+  border: 1px dashed;
+  border-color: var(--black);
+  border-radius: 4px;
+  box-shadow: 0px 2px 2px #0000003d, 0px 0px 2px #0000001f;
+  display: flex;
+  gap: 10px;
+  height: 217px;
+  justify-content: center;
+  padding: 10px 16px;
+  width: 300px;
+}
+
+.button {
+  align-self: stretch;
+  color: var(--fuscous-gray);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-xxx1);
+  font-weight: 500;
+  letter-spacing: 1.25px;
+  line-height: 16px;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.valign-text-middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.upload-file-button {
+  align-items: center;
+  background-color: var(--lochmara);
+  border: 1px none;
+  border-radius: 100px;
+  box-shadow: 0px 2px 4px #00000024, 0px 3px 4px #0000001f,
+    0px 1px 5px #00000033;
+  display: flex;
+  gap: 12px;
+  height: 42px;
+  justify-content: center;
+  padding: 12px 20px 12px 12px;
+  width: 178px;
+}
+
+.iconcontentadd {
+  height: 24px;
+  margin-bottom: -3px;
+  margin-top: -3px;
+  min-width: 24px;
+}
+
+.action {
+  color: var(--white);
+  flex: 1;
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-xxs);
+  font-weight: 500;
+  letter-spacing: 1.25px;
+  line-height: 16px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.new-bill-text {
+  color: var(--fuscous-gray);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-l);
+  font-weight: 700;
+  height: 30px;
+  letter-spacing: 0;
+  line-height: normal;
+  width: 36px;
+}
+
+.file-upload-supported-formats-png-jepg {
+  align-self: stretch;
+  color: var(--fuscous-gray);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-xxs2);
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: normal;
+}
