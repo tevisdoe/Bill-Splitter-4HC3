@@ -88,7 +88,7 @@ body {
   width: 90px;
 }
 
-.grocery {
+.category {
   height: 24px;
   letter-spacing: 0;
   line-height: normal;
@@ -101,7 +101,7 @@ body {
   justify-content: center;
 }
 
-.oct-17-2022 {
+.date {
   align-self: stretch;
   letter-spacing: 0;
   line-height: normal;

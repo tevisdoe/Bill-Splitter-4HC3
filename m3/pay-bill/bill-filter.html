@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
 
+    <script src="../common/jquery-3.6.1.min.js"></script>
+    <script src="./bill-filter.js"></script>
+
     <link rel="stylesheet" href="../common/styleguide.css" />
     <link rel="stylesheet" href="../common/header.css" />
     <link rel="stylesheet" href="../common/home-bar.css" />
@@ -25,6 +28,7 @@
                 class="input"
                 contenteditable="true"
                 data-placeholder="Enter Date"
+                id="date-input"
               ></div>
             </div>
           </div>
@@ -35,6 +39,7 @@
                 class="input"
                 contenteditable="true"
                 data-placeholder="Enter Category"
+                id="category-input"
               ></div>
             </div>
           </div>
@@ -45,6 +50,7 @@
                 class="input"
                 contenteditable="true"
                 data-placeholder="Enter Payee"
+                id="payee-input"
               ></div>
             </div>
           </div>
@@ -58,7 +64,7 @@
               alt="receipt-add"
             />
           </div>
-          <div class="frame-32" id="highlight" onclick="location.href='./view-bills.html'">
+          <div class="frame-32" id="highlight">
             <div
               id="highlight"
               class="text-1 inter-bold-black-20px"
