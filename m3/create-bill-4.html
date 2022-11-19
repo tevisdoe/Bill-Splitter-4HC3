@@ -18,26 +18,36 @@
       </div>
       <div class="frame-19">
         <h1 class="select-a-category">SELECT A CATEGORY</h1>
-        <div class="current-bills">
-          <div class="overlap-group5">
-            <div class="overlap-group">
-              <div class="groceries inter-bold-black-12px">Groceries</div>
-            </div>
-            <div class="overlap-group1">
-              <div class="rent inter-bold-black-12px">Rent</div>
-            </div>
-            <div class="dinner inter-bold-black-12px">Dinner</div>
-            <div class="overlap-group3">
-              <div class="gifts inter-bold-black-12px">Gifts</div>
-            </div>
-            <div class="overlap-group4">
-              <img src="left.svg" alt="left" class="left" />
-              <img src="left.svg" alt="right" class="right" />
-              <img src="top.svg" alt="top" class="top" />
-              <img src="top.svg" alt="bottom" class="bottom" />
-            </div>
-            <div class="coffee inter-bold-black-12px">Coffee</div>
-            <div class="rectangle-5"></div>
+        <div class="categories">
+          <div
+            class="category selected-category inter-bold-black-12px"
+            onclick="selectCategory('Groceries')"
+          >
+            Groceries
+          </div>
+          <div
+            class="category inter-bold-black-12px"
+            onclick="selectCategory('Rent')"
+          >
+            Rent
+          </div>
+          <div
+            class="category inter-bold-black-12px"
+            onclick="selectCategory('Dinner')"
+          >
+            Dinner
+          </div>
+          <div
+            class="category inter-bold-black-12px"
+            onclick="selectCategory('Gifts')"
+          >
+            Gifts
+          </div>
+          <div
+            class="category inter-bold-black-12px"
+            onclick="selectCategory('Netflix')"
+          >
+            Netflix Subscription
           </div>
         </div>
         <div class="upload-file-button">
@@ -65,5 +75,18 @@
         />
       </div>
     </div>
+
+    <script>
+      function selectCategory(category) {
+        document
+          .querySelector(".selected-category")
+          .classList.remove("selected-category");
+        document.querySelectorAll("div.category").forEach((catNode) => {
+          if (catNode.innerHTML.includes(category)) {
+            catNode.classList.add("selected-category");
+          }
+        });
+      }
+    </script>
   </body>
 </html>

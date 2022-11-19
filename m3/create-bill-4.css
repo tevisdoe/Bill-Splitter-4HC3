@@ -233,3 +233,21 @@ body {
   white-space: nowrap;
   width: fit-content;
 }
+
+.categories {
+  width: 300px;
+  height: 500px;
+  overflow-y: scroll;
+  border: 1px solid black;
+}
+
+.category {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  cursor: pointer;
+}
+
+.selected-category {
+  background-color: rgba(0, 117, 190, 0.2);
+}
