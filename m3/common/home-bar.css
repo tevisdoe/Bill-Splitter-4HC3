@@ -10,6 +10,7 @@
 }
 
 .home-bar-item {
+  cursor: pointer;
   height: 47px;
   min-width: 47px;
 }

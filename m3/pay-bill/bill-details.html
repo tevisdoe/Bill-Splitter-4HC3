@@ -13,8 +13,8 @@
   </head>
   <body>
     <div class="bill-information screen">
-        <div class="frame-14">
-            <div class="name">Bill Details</div>
+        <div class="header">
+            <div class="header-title">Bill Details</div>
         </div>
         <div class="frame-31">
             <div class="frame-31-item">
@@ -33,22 +33,26 @@
                 <div class="text inter-bold-black-20px">Amount</div>
                 <div class="text-1 inter-bold-black-20px">$64.15</div>
             </div>
-            <div class="frame-2">
+            <div class="frame-2" onclick="location.href='./payment-confirmed.html'">
                 <div class="pay">PAY</div>
             </div>
         </div>
         <div class="home-bar">
-            <img
-              src="../icons/bx_arrow-back.svg"
-              alt="bx:arrow-back"
-              class="home-bar-item"
-            />
-            <img
-              src="../icons/ant-design_home-outlined.svg"
-              alt="ant-design:home-outlined"
-              class="home-bar-item"
-            />
-          </div>
+          <img
+            src="../icons/bx_arrow-back.svg"
+            alt="bx:arrow-back"
+            class="home-bar-item"
+            onclick="location.href='./view-bills.html'"
+            style="cursor: pointer;"
+          />
+          <img
+            src="../icons/ant-design_home-outlined.svg"
+            alt="ant-design:home-outlined"
+            class="home-bar-item"
+            onclick="location.href='../index.html'"
+            style="cursor: pointer;"
+          />
+        </div>
     </div>
 
   </body>

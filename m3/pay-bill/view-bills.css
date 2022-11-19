@@ -146,3 +146,21 @@ body {
   margin-top: -1px;
   width: fit-content;
 }
+
+.group-87 {
+  background-color: var(--lochmara);
+  border-radius: 30px;
+  box-shadow: 0px 4px 4px #00000040;
+  cursor: pointer;
+  height: 60px;
+  width: 60px;
+  position: relative;
+}
+
+.filter-search {
+  height: 24px;
+  left: 18px;
+  position: absolute;
+  top: 18px;
+  width: 24px;
+}

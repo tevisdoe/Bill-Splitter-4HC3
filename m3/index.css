@@ -27,7 +27,7 @@ body {
   flex-direction: row;
   gap: 190px;
   height: 52px;
-  padding: 17px 21px;
+  padding: 2px 8px;
 }
 
 .frame-1-item {
@@ -51,6 +51,7 @@ body {
   height: 70px;
   min-width: 295px;
   position: relative;
+  cursor: pointer;
 }
 
 .vector-button {

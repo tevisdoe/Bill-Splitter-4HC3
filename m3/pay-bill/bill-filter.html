@@ -13,8 +13,8 @@
   </head>
   <body>
     <div class="bill-filter screen">
-      <div class="frame-14">
-        <div class="view-bills">View Bills</div>
+      <div class="header">
+        <div class="header-title">View Bills</div>
       </div>
       <div class="frame-30">
         <div class="frame-31">
@@ -58,11 +58,10 @@
               alt="receipt-add"
             />
           </div>
-          <div class="frame-32" highlight="true" id="highlight">
+          <div class="frame-32" id="highlight" onclick="location.href='./view-bills.html'">
             <div
               id="highlight"
               class="text-1 inter-bold-black-20px"
-              highlight="true"
             >
               Confirm<br />Filter
             </div>
@@ -74,11 +73,15 @@
           src="../icons/bx_arrow-back.svg"
           alt="bx:arrow-back"
           class="home-bar-item"
+          onclick="location.href='./view-bills.html'"
+          style="cursor: pointer;"
         />
         <img
           src="../icons/ant-design_home-outlined.svg"
           alt="ant-design:home-outlined"
           class="home-bar-item"
+          onclick="location.href='../index.html'"
+          style="cursor: pointer;"
         />
       </div>
     </div>

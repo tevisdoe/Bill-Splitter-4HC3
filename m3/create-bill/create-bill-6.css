@@ -135,6 +135,7 @@ body {
   justify-content: center;
   padding: 18px 84px;
   width: fit-content;
+  cursor: pointer;
 }
 
 .continue {

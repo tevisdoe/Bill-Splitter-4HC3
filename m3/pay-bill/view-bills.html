@@ -7,6 +7,7 @@
     <title>Document</title>
 
     <link rel="stylesheet" href="../common/styleguide.css" />
+    <link rel="stylesheet" href="../common/home-bar.css" />
     <link rel="stylesheet" href="view-bills.css" />
   </head>
   <body>
@@ -15,7 +16,7 @@
         <div class="view-bills">View Bills</div>
       </div>
       <div class="frame-13-1">
-        <div class="frame-13">
+        <div class="frame-13" onclick="location.href='./bill-details.html'">
           <div class="frame-10">
             <div class="frame-9">
               <div class="name inter-semi-bold-black-20px">Sam</div>
@@ -31,7 +32,7 @@
             </div>
           </div>
         </div>
-        <div class="frame-13">
+        <div class="frame-13" onclick="location.href='./bill-details.html'">
           <div class="frame-10">
             <div class="frame-9">
               <div class="name inter-semi-bold-black-20px">Jimmy</div>
@@ -47,7 +48,7 @@
             </div>
           </div>
         </div>
-        <div class="frame-13">
+        <div class="frame-13" onclick="location.href='./bill-details.html'">
           <div class="frame-10">
             <div class="frame-9">
               <div class="name inter-semi-bold-black-20px">Christina</div>
@@ -63,8 +64,26 @@
             </div>
           </div>
         </div>
+        <div class="group-87" onclick="location.href='bill-filter.html'">
+          <img class="filter-search" src="../icons/filter-search.svg" alt="'filter-search" />
+        </div>
       </div>
-      <div class="frame-14"></div>
+      <div class="home-bar">
+        <img
+          src="../icons/bx_arrow-back.svg"
+          alt="bx:arrow-back"
+          class="home-bar-item"
+          onclick="location.href='../index.html'"
+          style="cursor: pointer;"
+        />
+        <img
+          src="../icons/ant-design_home-outlined.svg"
+          alt="ant-design:home-outlined"
+          class="home-bar-item"
+          onclick="location.href='../index.html'"
+          style="cursor: pointer;"
+        />
+      </div>
     </div>
   </body>
 </html>
