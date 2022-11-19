@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="../../common/styleguide.css" />
+    <link rel="stylesheet" href="../../common/header.css" />
+    <link rel="stylesheet" href="../../common/home-bar.css" />
+    <link rel="stylesheet" href="payment-confirmed.css" />
+  </head>
+  <body>
+    <div class="payment-confirmed screen">
+      <div class="header">
+          <div class="header-title">Pay Bill</div>
+      </div>
+      <div class="payment-complete inter-bold-black-20px">Payment complete!</div>
+      <img class="tick-circle" src="../../icons/tick-circle.svg" alt="tick-circle"/>
+      <div class="frame-46">
+          <div class="frame-4">
+              <div class="amount inter-bold-black-20px">Amount</div>
+              <div class="price inter-normal-black-20px">$64.15</div>
+          </div>
+          <div class="frame-4">
+              <div class="pay-to inter-bold-black-20px">Pay To</div>
+              <div class="name inter-normal-black-20px">Jimmy Browns</div>
+          </div>
+          <div class="frame-4">
+              <div class="transaction-id inter-bold-black-20px">Transaction ID</div>
+              <div class="phone inter-normal-black-20px">1008365579</div>
+          </div>
+      </div>
+      <div class="frame-2" onclick="location.href='../../index.html'">
+          <div class="done">DONE</div>
+      </div>
+      <div class="home-bar">
+        <img
+          src="../../icons/bx_arrow-back.svg"
+          alt="bx:arrow-back"
+          class="home-bar-item"
+          style="opacity: 0; cursor: default;"
+        />
+        <img
+          src="../../icons/ant-design_home-outlined.svg"
+          alt="ant-design:home-outlined"
+          class="home-bar-item"
+          onclick="location.href='../../index.html'"
+          style="cursor: pointer;"
+        />
+      </div>
+  </div>
+  </body>
+</html>

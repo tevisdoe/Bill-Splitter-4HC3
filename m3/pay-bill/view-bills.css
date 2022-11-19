@@ -4,6 +4,7 @@ body {
   margin: 0 0 0 0;
 }
 
+
 .bills-list {
   align-items: center;
   background-color: var(--white);
@@ -44,7 +45,6 @@ body {
   align-items: center;
   background-color: var(--white);
   border: 1px solid;
-  border-color: var(--lochmara);
   border-radius: 100px;
   box-shadow: 0px 4px 4px #00000040;
   display: flex;
@@ -57,6 +57,7 @@ body {
 
 .frame-13:hover {
   cursor: pointer;
+  background-color: var(--lochmara);
 }
 
 .frame-10 {
@@ -163,4 +164,17 @@ body {
   position: absolute;
   top: 18px;
   width: 24px;
+}
+
+.all-done {
+  color: var(--black);
+  font-family: var(--font-family-roboto);
+  font-size: 29px;
+  font-weight: 700;
+  height: 30px;
+  letter-spacing: 1.25px;
+  line-height: 16px;
+  margin-top: 1px;
+  text-align: center;
+  width: 307px;
 }
