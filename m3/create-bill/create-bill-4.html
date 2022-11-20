@@ -71,30 +71,16 @@
           alt="bx:arrow-back"
           class="home-bar-item"
           onclick="location.href='./create-bill-3.html'"
-          style="cursor: pointer;"
+          style="cursor: pointer"
         />
         <img
           src="../icons/ant-design_home-outlined.svg"
           alt="ant-design:home-outlined"
           class="home-bar-item"
           onclick="location.href='../index.html'"
-          style="cursor: pointer;"
+          style="cursor: pointer"
         />
       </div>
     </div>
-
-    <script>
-      function selectCategory(category) {
-        document
-          .querySelector(".selected-category")
-          .classList.remove("selected-category");
-        document.querySelectorAll("div.category").forEach((catNode) => {
-          if (catNode.innerHTML.includes(category)) {
-            catNode.classList.add("selected-category");
-            sessionStorage.setItem("selected-category", category)
-          }
-        });
-      }
-    </script>
   </body>
 </html>
