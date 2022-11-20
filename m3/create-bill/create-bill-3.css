@@ -28,9 +28,21 @@ body {
   padding: 0px 20px;
 }
 
+div:empty:before {
+  content:attr(data-placeholder);
+  color:grey
+}
+
+.payment-complete {
+  letter-spacing: 0;
+  line-height: normal;
+  width: fit-content;
+}
+
 .image-box {
-  height: 347px;
-  min-width: 260px;
+  height: 400px;
+  min-width: 300px;
+  border-radius: 20px;
 }
 
 .total-input {

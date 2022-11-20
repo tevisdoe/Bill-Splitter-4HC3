@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
 
+    <script src="../common/jquery-3.6.1.min.js"></script>
+    <script src="./create-bill-3.js"></script>
+
     <link rel="stylesheet" href="../common/styleguide.css" />
     <link rel="stylesheet" href="../common/header.css" />
     <link rel="stylesheet" href="../common/home-bar.css" />
@@ -16,15 +19,16 @@
       <div class="header">
         <div class="header-title">Create a Bill</div>
       </div>
+      <div class="correct inter-bold-black-28px">Is this the correct amount?</div>
       <div class="frame-18">
-        <img src="../icons/image-box.svg" alt="Image Box" class="image-box" />
+        <img src="" alt="Image Box" class="image-box" id="image-box" />
         <div class="total-input">
-          <h1 class="total-text">TOTAL:</h1>
+          <div class="total-text">TOTAL:</div>
           <div class="overlap-group">
-            <div class="price">$89.99</div>
+            <div class="price" onkeypress="return (this.innerText.length <= 8)" contenteditable="true" data-placeholder="89.99"></div>
           </div>
         </div>
-        <div class="continue-button" onclick="location.href='./create-bill-4.html'" style="cursor: pointer;">
+        <div class="continue-button" style="cursor: pointer;">
           <div class="action">CONTINUE</div>
         </div>
       </div>

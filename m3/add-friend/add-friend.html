@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
 
+    <script src="../common/jquery-3.6.1.min.js"></script>
+    <script src="./add-friend.js"></script>
+
     <link rel="stylesheet" href="../common/styleguide.css" />
     <link rel="stylesheet" href="../common/header.css" />
     <link rel="stylesheet" href="../common/home-bar.css" />
@@ -20,7 +23,7 @@
         <div class="search">
           <img src="../icons/bx-search-1.svg" alt="bx-search-1" class="bx-search-1" />
           <div class="frame-29">
-            <div class="search-id-here">Search ID Here</div>
+            <div class="search-id-here" onkeypress="return (this.innerText.length <= 20)" contenteditable="true" data-placeholder="Search ID Here"></div>
           </div>
         </div>
         <div class="friend-search-list">
@@ -28,7 +31,7 @@
             <div class="avatar">
               <img src="../icons/bxs-user-1.svg" alt="bxs-user-1" class="bxs-user-1" />
             </div>
-            <div class="friend-a valign-text-middle">Friend A</div>
+            <div class="friend-a valign-text-middle" id="person">Friend A</div>
             <img
               src="../icons/bxs-user-check-1.svg"
               alt="bxs-user-check-1"
@@ -48,8 +51,12 @@
               src="../icons/bxs-user-plus-1.svg"
               alt="bxs-user-plus-1"
               class="bxs-user-plus-1"
+              id="add-stranger"
             />
           </div>
+        </div>
+        <div class="friend-request-sent-box">
+          <div class="friend-request-sent inter-bold-black-28px" style="position: relative;">Friend Reqest Sent!</div>
         </div>
       </div>
       <div class="share-button">

@@ -4,6 +4,11 @@ body {
   margin: 0;
 }
 
+div:empty:before {
+  content:attr(data-placeholder);
+  color:grey
+}
+
 .new-friend {
   align-items: center;
   background-color: var(--white);
@@ -109,7 +114,6 @@ body {
 }
 
 .search-id-here {
-  color: #838383;
   font-family: var(--font-family-inter);
   font-size: var(--font-size-m);
   font-weight: 700;

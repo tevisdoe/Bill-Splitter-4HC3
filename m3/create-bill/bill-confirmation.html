@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
 
+    <script src="../common/jquery-3.6.1.min.js"></script>
+    <script src="./bill-confirmation.js"></script>
+
     <link rel="stylesheet" href="../common/styleguide.css" />
     <link rel="stylesheet" href="../common/header.css" />
     <link rel="stylesheet" href="bill-confirmation.css" />
@@ -19,28 +22,24 @@
         <h1 class="confirmation">CONFIRMATION</h1>
         <div class="frame">
           <div class="category roboto-medium-black-18px">CATEGORY</div>
-          <div class="food roboto-medium-black-18px">Food</div>
+          <div class="food roboto-medium-black-18px" id="category">Food</div>
         </div>
         <div class="frame">
           <div class="category roboto-medium-black-18px">TOTAL</div>
-          <div class="food roboto-medium-black-18px">$89.99</div>
+          <div class="food roboto-medium-black-18px" id="price">$89.99</div>
         </div>
         <div class="frame">
           <div class="category roboto-medium-black-18px">DATE</div>
-          <div class="food roboto-medium-black-18px">Oct 25, 2022</div>
+          <div class="food roboto-medium-black-18px" id="date">Oct 25, 2022</div>
         </div>
         <div class="frame">
           <div class="category roboto-medium-black-18px">PAYEE</div>
-          <div class="food roboto-medium-black-18px">Adam White</div>
+          <div class="food roboto-medium-black-18px" id="payee">Adam White</div>
         </div>
         <div class="frame-7">
-          <div class="category roboto-medium-black-18px">PAYERS</div>
+          <div class="category roboto-medium-black-18px">PAYER</div>
           <div class="frame-8">
-            <div class="name-1 roboto-medium-black-18px">Jessica Huang</div>
-            <div class="frame-8-item roboto-medium-black-18px">Jarvis Keen</div>
-            <div class="frame-8-item roboto-medium-black-18px">
-              Kayjay March
-            </div>
+            <div class="name-1 roboto-medium-black-18px" id="payer">Friend A</div>
           </div>
         </div>
         <div class="frame">

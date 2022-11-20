@@ -29,6 +29,7 @@
                 contenteditable="true"
                 data-placeholder="Enter Date"
                 id="date-input"
+                onkeypress="return (this.innerText.length <= 15)"
               ></div>
             </div>
           </div>
@@ -40,6 +41,7 @@
                 contenteditable="true"
                 data-placeholder="Enter Category"
                 id="category-input"
+                onkeypress="return (this.innerText.length <= 15)"
               ></div>
             </div>
           </div>
@@ -51,6 +53,7 @@
                 contenteditable="true"
                 data-placeholder="Enter Payee"
                 id="payee-input"
+                onkeypress="return (this.innerText.length <= 15)"
               ></div>
             </div>
           </div>

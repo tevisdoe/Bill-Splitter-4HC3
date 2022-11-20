@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
 
+    <script src="../common/jquery-3.6.1.min.js"></script>
+    <script src="./create-bill-4.js"></script>
+
     <link rel="stylesheet" href="../common/styleguide.css" />
     <link rel="stylesheet" href="../common/header.css" />
     <link rel="stylesheet" href="../common/home-bar.css" />
@@ -88,6 +91,7 @@
         document.querySelectorAll("div.category").forEach((catNode) => {
           if (catNode.innerHTML.includes(category)) {
             catNode.classList.add("selected-category");
+            sessionStorage.setItem("selected-category", category)
           }
         });
       }

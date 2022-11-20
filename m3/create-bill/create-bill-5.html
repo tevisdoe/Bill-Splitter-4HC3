@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
 
+    <script src="../common/jquery-3.6.1.min.js"></script>
+    <script src="./create-bill-5.js"></script>
+
     <link rel="stylesheet" href="../common/styleguide.css" />
     <link rel="stylesheet" href="../common/header.css" />
     <link rel="stylesheet" href="../common/home-bar.css" />
@@ -23,11 +26,11 @@
         <div class="search">
           <img src="../icons/bx-search-1.svg" alt="bx-search-1" class="bx-search-1" />
           <div class="frame-29">
-            <div contenteditable="true" data-placeholder="Search ID Here" class="search-id-here"></div>
+            <div onkeypress="return (this.innerText.length <= 20)" contenteditable="true" data-placeholder="Search ID Here" class="search-id-here"></div>
           </div>
         </div>
         <div class="friend-search-list">
-          <div class="friend-a-1">
+          <div class="friend-a-1 selected-friend" onclick="selectFriend('Friend A')" id="friend">
             <div class="avatar">
               <img src="../icons/bxs-user-1.svg" alt="bxs-user-1" class="bxs-user-1" />
             </div>
@@ -35,7 +38,7 @@
               <div class="friend-a inter-bold-black-20px-2">Friend A</div>
             </div>
           </div>
-          <div class="friend-a-2">
+          <div class="friend-a-2" onclick="selectFriend('Friend B')" id="friend">
             <div class="avatar-1">
               <img src="../icons/bxs-user-1-1.svg" alt="bxs-user-1" class="bxs-user-1" />
             </div>

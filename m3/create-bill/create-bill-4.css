@@ -40,6 +40,7 @@ body {
   justify-content: center;
   padding: 12px 20px 12px 12px;
   width: 178px;
+  cursor: pointer;
 }
 
 .action {
